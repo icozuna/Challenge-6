@@ -1,0 +1,10 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("https://source.unsplash.com" );
+}
+
+.card {
+  padding: 2em;
+  max-width: 420px;
+}
+
