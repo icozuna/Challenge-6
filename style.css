@@ -8,3 +8,21 @@ body{
   max-width: 420px;
 }
 
+.weather-border {
+  border-bottom: solid blue 2px;
+  display: inline;
+}
+
+#first {
+  float: left;
+}
+
+#second {
+  overflow:auto;
+  border: solid black 1px;
+  padding: 20px;
+ 
+}
+
+ 
+
