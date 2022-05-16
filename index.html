@@ -40,19 +40,23 @@
                 type="text"
                 placeholder="Los Angeles"
               />
-              <input type="submit" class="button has-background-primary has-text-white has-text-weight-bold mt-3 is-centered"></input>
+              <input id="click-me" type="submit" class="button has-background-primary has-text-white has-text-weight-bold mt-3 is-centered"></input>
             </form>
           </div>
           <div class="container " id="second">
            <div class="weather " >
+            
              <h2 class="city weather-border is-size-3" >Weather in Little Rock</h2>
-              <h2 id="date">Todays Date</h2>
+             <h2 id="date" class="is-size-4">Todays Date</h2>
+            
+              <div class="flex">
              <div class="temp is-size-4">89°F</div>
-             <img src="" alt="" class="icon is-large"/>
+             <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="Visual representation of the curent weather." class="icon is-large"/>
+            </div>
              <div class="description is-size-4 is-capitalized">Sunny</div>
              <div class="humidity is-size-4">Humidity 50%</div>
              <div class="wind is-size-4 is-capitalized">Wind Speed 4.61 km/h</div>
-             <div class="dt">not sure</div>
+      
            </div>
           </div>
           </div>
@@ -61,6 +65,6 @@
       </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="./script.js" ></script>
   </body>
 </html>
